@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : mips_16
+Version: G-2012.06-SP2
+Date   : Thu Mar 14 22:15:45 2019
+****************************************
+
+
+  Timing Path Group 'CLK_clk'
+  -----------------------------------
+  Levels of Logic:               7.00
+  Critical Path Length:          0.34
+  Critical Path Slack:           1.63
+  Critical Path Clk Period:      4.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          9
+  Hierarchical Port Count:        328
+  Leaf Cell Count:              18810
+  Buf/Inv Cell Count:            5284
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:     14570
+  Sequential Cell Count:         4240
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    17467.688128
+  Noncombinational Area: 19288.191353
+  Buf/Inv Area:           3025.750006
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:             36755.879481
+  Design Area:           36755.879481
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         18859
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    2.90
+  Logic Optimization:                  8.73
+  Mapping Optimization:               10.92
+  -----------------------------------------
+  Overall Compile Time:               26.40
+  Overall Compile Wall Clock Time:    27.85
+
+1

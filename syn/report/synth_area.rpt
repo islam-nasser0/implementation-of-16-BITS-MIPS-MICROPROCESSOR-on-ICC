@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : mips_16
+Version: G-2012.06-SP2
+Date   : Thu Mar 14 22:15:45 2019
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'mips_16' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+Number of ports:                           34
+Number of nets:                           273
+Number of cells:                          181
+Number of combinational cells:            158
+Number of sequential cells:                16
+Number of macros:                           0
+Number of buf/inv:                         27
+Number of references:                      22
+
+Combinational area:       17467.688128
+Buf/Inv area:             3025.750006
+Noncombinational area:    19288.191353
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          36755.879481
+Total area:                 undefined
+1

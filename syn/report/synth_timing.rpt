@@ -1,0 +1,427 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : mips_16
+Version: G-2012.06-SP2
+Date   : Thu Mar 14 22:15:45 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][4]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U3/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U55/ZN (NAND2_X1)                              0.05       2.30 r
+  reg_file/U54/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][4]/D (DFFR_X1)                0.01       2.34 f
+  data arrival time                                                  2.34
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][4]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.34
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][5]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U3/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U57/ZN (NAND2_X1)                              0.05       2.30 r
+  reg_file/U56/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][5]/D (DFFR_X1)                0.01       2.34 f
+  data arrival time                                                  2.34
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][5]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.34
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][6]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U3/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U59/ZN (NAND2_X1)                              0.05       2.30 r
+  reg_file/U58/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][6]/D (DFFR_X1)                0.01       2.34 f
+  data arrival time                                                  2.34
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][6]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.34
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][7]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U3/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U61/ZN (NAND2_X1)                              0.05       2.30 r
+  reg_file/U60/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][7]/D (DFFR_X1)                0.01       2.34 f
+  data arrival time                                                  2.34
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][7]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.34
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][0]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U4/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U63/ZN (NAND2_X1)                              0.05       2.29 r
+  reg_file/U62/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][0]/D (DFFR_X1)                0.01       2.33 f
+  data arrival time                                                  2.33
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][0]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][1]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U4/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U65/ZN (NAND2_X1)                              0.05       2.29 r
+  reg_file/U64/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][1]/D (DFFR_X1)                0.01       2.33 f
+  data arrival time                                                  2.33
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][1]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][2]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U4/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U67/ZN (NAND2_X1)                              0.05       2.29 r
+  reg_file/U66/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][2]/D (DFFR_X1)                0.01       2.33 f
+  data arrival time                                                  2.33
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][2]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][3]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U4/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U69/ZN (NAND2_X1)                              0.05       2.29 r
+  reg_file/U68/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][3]/D (DFFR_X1)                0.01       2.33 f
+  data arrival time                                                  2.33
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][3]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][8]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U4/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U71/ZN (NAND2_X1)                              0.05       2.29 r
+  reg_file/U70/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][8]/D (DFFR_X1)                0.01       2.33 f
+  data arrival time                                                  2.33
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][8]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+  Startpoint: reset (input port clocked by CLK_clk)
+  Endpoint: reg_file/reg_array_reg[0][9]
+            (rising edge-triggered flip-flop clocked by CLK_clk)
+  Path Group: CLK_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_16            5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_clk (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    2.00       2.00 f
+  reset (in)                                              0.00       2.00 f
+  control_unit/reset (control)                            0.00       2.00 f
+  control_unit/U12/ZN (OAI211_X1)                         0.05       2.05 r
+  control_unit/reg_write (control)                        0.00       2.05 r
+  reg_file/reg_write_en (register_file)                   0.00       2.05 r
+  reg_file/U39/ZN (INV_X1)                                0.03       2.07 f
+  reg_file/U38/ZN (NOR2_X1)                               0.05       2.13 r
+  reg_file/U29/ZN (NAND3_X1)                              0.05       2.18 f
+  reg_file/U4/Z (BUF_X1)                                  0.07       2.25 f
+  reg_file/U73/ZN (NAND2_X1)                              0.05       2.29 r
+  reg_file/U72/ZN (OAI21_X1)                              0.03       2.33 f
+  reg_file/reg_array_reg[0][9]/D (DFFR_X1)                0.01       2.33 f
+  data arrival time                                                  2.33
+
+  clock CLK_clk (rise edge)                               4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  reg_file/reg_array_reg[0][9]/CK (DFFR_X1)               0.00       4.00 r
+  library setup time                                     -0.03       3.97
+  data required time                                                 3.97
+  --------------------------------------------------------------------------
+  data required time                                                 3.97
+  data arrival time                                                 -2.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.63
+
+
+1
